@@ -4,7 +4,7 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.7.12
+* [NGiNX](http://nginx.org) : 1.9.0
 * [OpenSSL](https://www.openssl.org) : 1.0.2a
 * [PCRE](http://www.pcre.org) : 8.36
 * [PSOL](https://github.com/pagespeed/ngx_pagespeed) : 1.9.32.3 
