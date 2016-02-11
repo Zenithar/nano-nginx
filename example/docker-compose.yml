@@ -1,0 +1,15 @@
+memcached:
+  restart: always
+  image: memcached
+
+web:
+  restart: always
+  build: .
+  ports:
+    - "80:80"
+    - "443:443"
+  volumes:
+    - "/srv/docker/nginx/www:/www"
+    - "/srv/docker/nginx/ssl:/etc/nginx/ssl"
+  links:
+    - memcached
