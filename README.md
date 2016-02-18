@@ -4,12 +4,13 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.9.10
+* [NGiNX](http://nginx.org) : 1.9.11
 * [OpenSSL](https://www.openssl.org) : 1.0.2f
 * [PCRE](http://www.pcre.org) : 8.38
-* [PSOL](https://github.com/pagespeed/ngx_pagespeed) : 1.10.33.2
+* [PSOL](https://github.com/pagespeed/ngx_pagespeed) : 1.10.33.5
 * additionnal(s) module(s) :
   * [HeadersMore](http://wiki.nginx.org/HttpHeadersMoreModule) : 0.25
++ Anonymization patch : https://gist.github.com/Zenithar/70bbb4343d4d9eee4d86
 
 The RootFS image builder could be found at [zenithar/nginx-builder](https://github.com/Zenithar/dockerfiles/tree/master/nginx-builder).
 
