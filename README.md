@@ -4,8 +4,8 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.9.15
-* [OpenSSL](https://www.openssl.org) : 1.0.2g
+* [NGiNX](http://nginx.org) : 1.10.0
+* [OpenSSL](https://www.openssl.org) : 1.0.2h
 * [PCRE](http://www.pcre.org) : 8.38
 * [PSOL](https://github.com/pagespeed/ngx_pagespeed) : 1.11.33.0
 * additionnal(s) module(s) :
