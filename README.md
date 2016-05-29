@@ -4,10 +4,10 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.10.0
+* [NGiNX](http://nginx.org) : 1.11.0
 * [OpenSSL](https://www.openssl.org) : 1.0.2h
 * [PCRE](http://www.pcre.org) : 8.38
-* [PSOL](https://github.com/pagespeed/ngx_pagespeed) : 1.11.33.0
+* [PSOL](https://github.com/pagespeed/ngx_pagespeed) : 1.11.33.2
 * additionnal(s) module(s) :
   * [HeadersMore](http://wiki.nginx.org/HttpHeadersMoreModule) : 0.25
 + Anonymization patch : https://gist.github.com/Zenithar/70bbb4343d4d9eee4d86
