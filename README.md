@@ -4,7 +4,7 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.11.1
+* [NGiNX](http://nginx.org) : 1.11.2
 * [BoringSSL](https://boringssl.googlesource.com/boringssl/) : master
 * [PCRE](http://www.pcre.org) : 8.38
 * [PSOL](https://github.com/pagespeed/ngx_pagespeed) : 1.11.33.2
