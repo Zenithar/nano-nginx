@@ -26,3 +26,4 @@ Volumes :
  * `/www` : defaut document root for files to serve
  * `/var/log/nginx`: for nginx logs
  * `/etc/nginx`: for nginx settings
+
