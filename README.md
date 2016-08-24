@@ -9,11 +9,16 @@ This image contains :
 * [PCRE](http://www.pcre.org) : 8.38
 * [PSOL](https://github.com/pagespeed/ngx_pagespeed) : 1.11.33.2
 * additionnal(s) module(s) :
-  * [HeadersMore](http://wiki.nginx.org/HttpHeadersMoreModule) : 0.25
+  * [HeadersMore](https://github.com/openresty/headers-more-nginx-module)
+  * [Brotli](https://github.com/google/ngx_brotli)
+  * [Certificate Transparency](https://github.com/grahamedgecombe/nginx-ct)
+  * [NAXSI](https://github.com/nbs-system/naxsi)
+* Patchs:
+  * [CloudFlare SPDY](https://raw.githubusercontent.com/felixbuenemann/sslconfig/updated-nginx-1.9.15-spdy-patch/patches/nginx_1_9_15_http2_spdy.patch)
+  * [Dynamic TLS Record](https://raw.githubusercontent.com/cloudflare/sslconfig/master/patches/nginx__dynamic_tls_records.patch)
+  * [Boring SSL](https://gist.githubusercontent.com/Zenithar/66dedc0e4dbe54ecb8949822526634a7/raw/f71c103445aa32d40653e941121069b2c6b980d8/boringssl_nginx.patch)
 
-+ Anonymization patch : https://gist.github.com/Zenithar/70bbb4343d4d9eee4d86
-
-The RootFS image builder could be found at [zenithar/nginx-builder](https://github.com/Zenithar/dockerfiles/tree/master/nginx-builder).
+[Dockerfile](https://gist.github.com/Zenithar/9209968) used to build image.
 
 The server try to find the setting file `nginx.conf` in `/etc/nginx` folder, you can use default installation settings from your distro, the only thing you have to do is to mount the settings folder in the docker container.
 
@@ -26,4 +31,3 @@ Volumes :
  * `/www` : defaut document root for files to serve
  * `/var/log/nginx`: for nginx logs
  * `/etc/nginx`: for nginx settings
-
