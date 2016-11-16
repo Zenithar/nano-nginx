@@ -1,20 +1,23 @@
-# Nano NGiNX 
+# Nano NGiNX
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Zenithar/nano-nginx?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.11.5
+* [NGiNX](http://nginx.org) : 1.11.6
 * [BoringSSL](https://boringssl.googlesource.com/boringssl/) : master
 * [PCRE](http://www.pcre.org) : 8.38
-* [PSOL](https://github.com/pagespeed/ngx_pagespeed) : 1.11.33.4
+* [PSOL](https://github.com/pagespeed/ngx_pagespeed) : stable
 * additionnal(s) module(s) :
   * [HeadersMore](https://github.com/openresty/headers-more-nginx-module)
   * [Brotli](https://github.com/google/ngx_brotli)
   * [Certificate Transparency](https://github.com/grahamedgecombe/nginx-ct)
   * [NAXSI](https://github.com/nbs-system/naxsi)
+  * [FancyIndex](https://github.com/aperezdc/ngx-fancyindex)
+  * [SRCache](https://github.com/openresty/srcache-nginx-module)
+
 * Patchs:
-  * [Boring SSL](https://gist.githubusercontent.com/Zenithar/66dedc0e4dbe54ecb8949822526634a7/raw/f71c103445aa32d40653e941121069b2c6b980d8/boringssl_nginx.patch)
+  * [Boring SSL](https://gist.githubusercontent.com/Zenithar/66dedc0e4dbe54ecb8949822526634a7/raw/030644ac0f1db15fedb9ba9508c73263d3eb7fed/boringssl_nginx.patch)
 
 [Dockerfile](https://gist.github.com/Zenithar/9209968) used to build image.
 
