@@ -15,9 +15,11 @@ This image contains :
   * [NAXSI](https://github.com/nbs-system/naxsi)
   * [FancyIndex](https://github.com/aperezdc/ngx-fancyindex)
   * [SRCache](https://github.com/openresty/srcache-nginx-module)
-
+  * [LUA](https://github.com/openresty/lua-nginx-module) (LuaJIT 2.0.4)
 * Patchs:
   * [Boring SSL](https://gist.githubusercontent.com/Zenithar/66dedc0e4dbe54ecb8949822526634a7/raw/030644ac0f1db15fedb9ba9508c73263d3eb7fed/boringssl_nginx.patch)
+  * [Dynamic TLS](https://raw.githubusercontent.com/cloudflare/sslconfig/master/patches/nginx__1.11.5_dynamic_tls_records.patch)
+  * [CloudFlare SPDY](https://raw.githubusercontent.com/cujanovic/nginx-http2-spdy-patch/master/nginx-spdy-1.11.5%2B.patch)
 
 [Dockerfile](https://gist.github.com/Zenithar/9209968) used to build image.
 
@@ -32,3 +34,9 @@ Volumes :
  * `/www` : defaut document root for files to serve
  * `/var/log/nginx`: for nginx logs
  * `/etc/nginx`: for nginx settings
+
+## Tools
+
+ * Brotli encoder (/bin/bro) 
+ * Luajit console (/bin/luajit)
+
