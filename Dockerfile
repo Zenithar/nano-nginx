@@ -1,7 +1,7 @@
 FROM scratch
 MAINTAINER Thibault NORMAND <me@zenithar.org>
 
-COPY rootfs.tar.xz /
+ADD rootfs.tar.xz /
 
 VOLUME ["/var/log/nginx"]
 VOLUME ["/www"]
