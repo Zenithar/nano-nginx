@@ -4,7 +4,7 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.11.9
+* [NGiNX](http://nginx.org) : 1.11.10
 * [BoringSSL](https://boringssl.googlesource.com/boringssl/) : master
 * [PCRE](http://www.pcre.org) : 8.39
 * [zlib](http://zlib.net): 1.2.11
@@ -18,7 +18,6 @@ This image contains :
   * [SRCache](https://github.com/openresty/srcache-nginx-module)
   * [LUA](https://github.com/openresty/lua-nginx-module) (LuaJIT 2.0.4)
 * Patchs:
-  * [Boring SSL](https://gist.githubusercontent.com/Zenithar/66dedc0e4dbe54ecb8949822526634a7/raw/030644ac0f1db15fedb9ba9508c73263d3eb7fed/boringssl_nginx.patch)
   * [Dynamic TLS](https://raw.githubusercontent.com/cloudflare/sslconfig/master/patches/nginx__1.11.5_dynamic_tls_records.patch)
   * [CloudFlare SPDY](https://raw.githubusercontent.com/cujanovic/nginx-http2-spdy-patch/master/nginx-spdy-1.11.5%2B.patch)
 
@@ -38,6 +37,5 @@ Volumes :
 
 ## Tools
 
- * Brotli encoder (/bin/bro) 
+ * Brotli encoder (/bin/bro)
  * Luajit console (/bin/luajit)
-
