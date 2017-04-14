@@ -4,7 +4,7 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.11.13
+* [NGiNX](http://nginx.org) : 1.12.0
 * [BoringSSL](https://boringssl.googlesource.com/boringssl/) : master
 * [PCRE](http://www.pcre.org) : 8.40
 * [zlib](http://zlib.net): 1.2.11
@@ -20,7 +20,6 @@ This image contains :
 * Patchs:
   * [Dynamic TLS](https://raw.githubusercontent.com/cloudflare/sslconfig/master/patches/nginx__1.11.5_dynamic_tls_records.patch)
   * [CloudFlare SPDY](https://raw.githubusercontent.com/cujanovic/nginx-http2-spdy-patch/master/nginx-spdy-1.11.5%2B.patch)
-  * [TLS 1.3]()
 
 [Dockerfile](https://gist.github.com/Zenithar/9209968) used to build image.
 
