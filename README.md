@@ -4,11 +4,11 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.13.3
+* [NGiNX](http://nginx.org) : 1.13.4
 * [BoringSSL](https://boringssl.googlesource.com/boringssl/) : master
-* [PCRE](http://www.pcre.org) : 8.40
+* [PCRE](http://www.pcre.org) : 8.41
 * [zlib](http://zlib.net): 1.2.11
-* [PSOL](https://github.com/pagespeed/ngx_pagespeed) : stable
+* [PSOL](https://github.com/pagespeed/ngx_pagespeed) : stable *DISABLED*
 * additionnal(s) module(s) :
   * [HeadersMore](https://github.com/openresty/headers-more-nginx-module)
   * [Brotli](https://github.com/google/ngx_brotli)
