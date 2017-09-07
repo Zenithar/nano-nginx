@@ -4,7 +4,7 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.13.4
+* [NGiNX](http://nginx.org) : 1.13.5
 * [BoringSSL](https://boringssl.googlesource.com/boringssl/) : master
 * [PCRE](http://www.pcre.org) : 8.41
 * [zlib](http://zlib.net): 1.2.11
@@ -16,7 +16,7 @@ This image contains :
   * [NAXSI](https://github.com/nbs-system/naxsi)
   * [FancyIndex](https://github.com/aperezdc/ngx-fancyindex)
   * [SRCache](https://github.com/openresty/srcache-nginx-module)
-  * [LUA](https://github.com/openresty/lua-nginx-module) (LuaJIT 2.0.4)
+  * [LUA](https://github.com/openresty/lua-nginx-module) (LuaJIT 2.0.5)
 * Patchs:
   * [Dynamic TLS](https://raw.githubusercontent.com/cloudflare/sslconfig/master/patches/nginx__1.11.5_dynamic_tls_records.patch)
   * [CloudFlare SPDY](https://raw.githubusercontent.com/cujanovic/nginx-http2-spdy-patch/master/nginx-spdy-1.11.5%2B.patch)
