@@ -3,7 +3,7 @@
 This image contains :
 
 * [NGiNX](http://nginx.org) : 1.13.6
-* [BoringSSL](https://boringssl.googlesource.com/boringssl/) : master
+* [OpenSSL](https://github.com/openssl/openssl/releases/tag/OpenSSL_1_0_2m) : 1.0.2m
 * [PCRE](http://www.pcre.org) : 8.41
 * [zlib](http://zlib.net): 1.2.11
 * additionnal(s) module(s) :
@@ -13,7 +13,7 @@ This image contains :
   * [NAXSI](https://github.com/nbs-system/naxsi)
   * [FancyIndex](https://github.com/aperezdc/ngx-fancyindex)
   * [SRCache](https://github.com/openresty/srcache-nginx-module)
-  * [LUA](https://github.com/openresty/lua-nginx-module) (LuaJIT 2.0.5) *DISABLED - BoringSSL Compatibility issues*
+  * [LUA](https://github.com/openresty/lua-nginx-module) (LuaJIT 2.0.5)
 * Patchs:
   * [Dynamic TLS](https://raw.githubusercontent.com/cujanovic/nginx-dynamic-tls-records-patch/master/nginx__dynamic_tls_records_1.13.0%2B.patch)
   * [CloudFlare SPDY](https://raw.githubusercontent.com/xddxdd/sslconfig/master/patches/nginx__1.13.0_http2_spdy.patch)
