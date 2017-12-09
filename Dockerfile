@@ -10,8 +10,8 @@ VOLUME ["/etc/nginx"]
 EXPOSE 80 443
 
 LABEL description="Nginx built from source" \
-      openssl="OpenSSL 1.0.2m" \
-      nginx="nginx 1.13.6" \
+      openssl="OpenSSL 1.10.0g" \
+      nginx="nginx 1.13.7" \
       maintainer="Thibault NORMAND <me@zenithar.org>"
 
 ENTRYPOINT /usr/sbin/nginx
