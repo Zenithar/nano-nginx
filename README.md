@@ -2,8 +2,8 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.13.6
-* [OpenSSL](https://github.com/openssl/openssl/releases/tag/OpenSSL_1_0_2m) : 1.0.2m
+* [NGiNX](http://nginx.org) : 1.13.7
+* [OpenSSL](https://github.com/openssl/openssl/releases/tag/OpenSSL_1_10g) : 1.10g
 * [PCRE](http://www.pcre.org) : 8.41
 * [zlib](http://zlib.net): 1.2.11
 * additionnal(s) module(s) :
@@ -13,7 +13,7 @@ This image contains :
   * [NAXSI](https://github.com/nbs-system/naxsi)
   * [FancyIndex](https://github.com/aperezdc/ngx-fancyindex)
   * [SRCache](https://github.com/openresty/srcache-nginx-module)
-  * [LUA](https://github.com/openresty/lua-nginx-module) (LuaJIT 2.0.5)
+  * [LUA](https://github.com/openresty/lua-nginx-module) (LuaJIT 2.0.5 - *Disabled* OpenSSL issues)
 * Patchs:
   * [Dynamic TLS](https://raw.githubusercontent.com/cujanovic/nginx-dynamic-tls-records-patch/master/nginx__dynamic_tls_records_1.13.0%2B.patch)
   * [CloudFlare SPDY](https://raw.githubusercontent.com/xddxdd/sslconfig/master/patches/nginx__1.13.0_http2_spdy.patch)
