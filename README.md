@@ -2,7 +2,7 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.13.7
+* [NGiNX](http://nginx.org) : 1.13.8
 * [OpenSSL](https://github.com/openssl/openssl/releases/tag/OpenSSL_1_10g) : 1.10g
 * [PCRE](http://www.pcre.org) : 8.41
 * [zlib](http://zlib.net): 1.2.11
