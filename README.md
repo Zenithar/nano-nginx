@@ -2,10 +2,10 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.13.9
+* [NGiNX](http://nginx.org) : 1.13.10
 * [OpenSSL](https://github.com/openssl/openssl/releases/tag/OpenSSL_1_10g) : 1.10g
-* [PCRE](http://www.pcre.org) : 8.41
-* [zlib](http://zlib.net): 1.2.11
+* [PCRE](http://www.pcre.org) : 8.42
+* [Cloudflare zlib](https://github.com/cloudflare/zlib): 1.3.0
 * additionnal(s) module(s) :
   * [HeadersMore](https://github.com/openresty/headers-more-nginx-module)
   * [Brotli](https://github.com/google/ngx_brotli)
