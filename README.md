@@ -3,7 +3,7 @@
 This image contains :
 
 * [NGiNX](http://nginx.org) : 1.13.10
-* [OpenSSL](https://github.com/openssl/openssl/releases/tag/OpenSSL_1_10g) : 1.10g
+* [OpenSSL](https://github.com/openssl/openssl/releases/tag/OpenSSL_1_10g) : 1.1.1-pre3
 * [PCRE](http://www.pcre.org) : 8.42
 * [Cloudflare zlib](https://github.com/cloudflare/zlib): 1.3.0
 * additionnal(s) module(s) :
