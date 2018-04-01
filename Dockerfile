@@ -1,14 +1,10 @@
 FROM scratch
 
-ADD rootfs.tar.xz /
-
-VOLUME ["/var/log/nginx"]
-VOLUME ["/www"]
-VOLUME ["/etc/nginx"]
-
-EXPOSE 80 443
-
-LABEL description="Nginx built from source" \
+LABEL maintainer="Thibault NORMAND <me@zenithar.org>" \
+      docker.from="scratch" \
+      built.on="ubuntu 18.04" \
+      hardened.flags="true" \
+      description="Nginx built from source" \
       ssl.implementation="openssl" \
       openssl.version="1.1.0h" \
       pcre.version="8.42" \
@@ -18,6 +14,17 @@ LABEL description="Nginx built from source" \
       nginx.version="1.13.10" \
       nginx.modules="HeadersMore|Brotli|Certificate Transparency|NAXSI|FancyIndex|SRCache|LUA" \
       nginx.patches="Dynamic TLS|CloudFlare SPDY" \
-      maintainer="Thibault NORMAND <me@zenithar.org>"
+      nist.cpe.list.nginx="cpe:2.3:a:nginx:nginx:1.13.10:*:*:*:*:*:*:*" \
+      nist.cpe.list.openssl="cpe:2.3:a:openssl:openssl:1.1.0h:*:*:*:*:*:*:*" \
+      nist.cpe.list.pcre="cpe:2.3:a:pcre:pcre:8.00:*:*:*:*:*:*:*" \
+      nist.cpe.list.zlib="cpe:2.3:a:gnu:zlib:1.2.8:*:*:*:*:*:*:*" 
+
+ADD rootfs.tar.xz /
+
+VOLUME ["/var/log/nginx"]
+VOLUME ["/www"]
+VOLUME ["/etc/nginx"]
+
+EXPOSE 80 443
 
 ENTRYPOINT /usr/sbin/nginx
