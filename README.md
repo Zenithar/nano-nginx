@@ -2,7 +2,7 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.13.11
+* [NGiNX](http://nginx.org) : 1.13.12
 * [OpenSSL](https://github.com/openssl/openssl/releases/tag/OpenSSL_1_10h) : 1.1.1pre4
 * [PCRE](http://www.pcre.org) : 8.42
 * [Cloudflare zlib](https://github.com/cloudflare/zlib): 1.3.0
