@@ -1,5 +1,22 @@
 FROM scratch
-MAINTAINER Thibault NORMAND <me@zenithar.org>
+
+LABEL maintainer="Thibault NORMAND <me@zenithar.org>" \
+      docker.from="scratch" \
+      built.on="ubuntu 18.04" \
+      hardened.flags="true" \
+      description="Nginx built from source" \
+      ssl.implementation="boringssl" \
+      boringssl.version="master" \
+      pcre.version="8.42" \
+      zlib.version="1.3.0-cloudflare" \
+      jemalloc.version="5.1.0" \
+      luajit.version="2.0.5" \
+      nginx.version="1.15.0" \
+      nginx.modules="HeadersMore|Brotli|Certificate Transparency|NAXSI|FancyIndex|SRCache|LUA" \
+      nginx.patches="Dynamic TLS|CloudFlare SPDY" \
+      nist.cpe.list.nginx="cpe:2.3:a:nginx:nginx:1.15.0:*:*:*:*:*:*:*" \
+      nist.cpe.list.pcre="cpe:2.3:a:pcre:pcre:8.42:*:*:*:*:*:*:*" \
+      nist.cpe.list.zlib="cpe:2.3:a:gnu:zlib:1.2.8:*:*:*:*:*:*:*" 
 
 ADD rootfs.tar.xz /
 
@@ -9,9 +26,4 @@ VOLUME ["/etc/nginx"]
 
 EXPOSE 80 443
 
-LABEL description="Nginx built from source" \
-      openssl="BoringSSL" \
-      nginx="nginx 1.15.0" \
-      maintainer="Thibault NORMAND <me@zenithar.org>"
-
-CMD /usr/sbin/nginx
+ENTRYPOINT /usr/sbin/nginx
