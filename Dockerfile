@@ -11,7 +11,7 @@ EXPOSE 80 443
 
 LABEL description="Nginx built from source" \
       openssl="BoringSSL" \
-      nginx="nginx 1.13.4" \
+      nginx="nginx 1.15.0" \
       maintainer="Thibault NORMAND <me@zenithar.org>"
 
 CMD /usr/sbin/nginx
