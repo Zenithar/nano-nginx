@@ -14,7 +14,7 @@ LABEL maintainer="Thibault NORMAND <me@zenithar.org>" \
       nginx.version="1.15.0" \
       nginx.modules="HeadersMore|Brotli|Certificate Transparency|NAXSI|FancyIndex|SRCache|LUA" \
       nginx.patches="Dynamic TLS|CloudFlare SPDY" \
-      nist.cpe.list.nginx="cpe:2.3:a:nginx:nginx:1.15.0:*:*:*:*:*:*:*" \
+      nist.cpe.list.nginx="cpe:2.3:a:nginx:nginx:1.15.1:*:*:*:*:*:*:*" \
       nist.cpe.list.pcre="cpe:2.3:a:pcre:pcre:8.42:*:*:*:*:*:*:*" \
       nist.cpe.list.zlib="cpe:2.3:a:gnu:zlib:1.2.8:*:*:*:*:*:*:*" 
 
