@@ -11,10 +11,10 @@ LABEL maintainer="Thibault NORMAND <me@zenithar.org>" \
       zlib.version="1.3.0-cloudflare" \
       jemalloc.version="5.1.0" \
       luajit.version="2.0.5" \
-      nginx.version="1.15.4" \
+      nginx.version="1.15.6" \
       nginx.modules="HeadersMore|Brotli|Certificate Transparency|NAXSI|FancyIndex|SRCache|LUA" \
       nginx.patches="HPACK|RemoveHeaders|StrictSNI" \
-      nist.cpe.list.nginx="cpe:2.3:a:nginx:nginx:1.15.4:*:*:*:*:*:*:*" \
+      nist.cpe.list.nginx="cpe:2.3:a:nginx:nginx:1.15.6:*:*:*:*:*:*:*" \
       nist.cpe.list.pcre="cpe:2.3:a:pcre:pcre:8.42:*:*:*:*:*:*:*" \
       nist.cpe.list.zlib="cpe:2.3:a:gnu:zlib:1.2.8:*:*:*:*:*:*:*" 
 

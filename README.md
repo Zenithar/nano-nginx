@@ -2,7 +2,7 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.15.5
+* [NGiNX](http://nginx.org) : 1.15.6
 * [BoringSSL](https://boringssl.googlesource.com/boringssl/) : master
 * [PCRE](http://www.pcre.org) : 8.42
 * [zlib](http://zlib.net): 1.3.0-cloudflare
