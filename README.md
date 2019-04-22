@@ -2,10 +2,10 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.15.8
+* [NGiNX](http://nginx.org) : 1.15.12
 * [BoringSSL](https://boringssl.googlesource.com/boringssl/) : master
-* [PCRE](http://www.pcre.org) : 8.42
-* [zlib](http://zlib.net): 1.3.0-cloudflare
+* [PCRE](http://www.pcre.org) : 8.43
+* [zlib](http://zlib.net): 1.2.11
 * additionnal(s) module(s) :
   * [HeadersMore](https://github.com/openresty/headers-more-nginx-module)
   * [Brotli](https://github.com/google/ngx_brotli)
@@ -13,10 +13,6 @@ This image contains :
   * [NAXSI](https://github.com/nbs-system/naxsi)
   * [FancyIndex](https://github.com/aperezdc/ngx-fancyindex)
   * [SRCache](https://github.com/openresty/srcache-nginx-module)
-  * [LUA](https://github.com/openresty/lua-nginx-module) (LuaJIT 2.0.5) 
-* Patchs:
-  * https://raw.githubusercontent.com/hakasenyang/openssl-patch/master/nginx_hpack_remove_server_header_1.15.3.patch
-  * https://raw.githubusercontent.com/hakasenyang/openssl-patch/master/nginx_strict-sni.patch
 
 [Dockerfile](https://gist.github.com/Zenithar/9209968) used to build image.
 
