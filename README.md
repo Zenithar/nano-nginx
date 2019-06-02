@@ -2,7 +2,7 @@
 
 This image contains :
 
-* [NGiNX](http://nginx.org) : 1.15.12
+* [NGiNX](http://nginx.org) : 1.17.0
 * [BoringSSL](https://boringssl.googlesource.com/boringssl/) : master
 * [PCRE](http://www.pcre.org) : 8.43
 * [zlib](http://zlib.net): 1.2.11
